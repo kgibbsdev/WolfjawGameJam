@@ -1,15 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oWall",
-  "eventList": [],
+  "name": "oGround",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Environment",
+    "path": "folders/Objects/Environment.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oEnvCollision",
+    "path": "objects/oEnvCollision/oEnvCollision.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -26,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spWall",
-    "path": "sprites/spWall/spWall.yy",
+    "name": "sprGround",
+    "path": "sprites/sprGround/sprGround.yy",
   },
   "spriteMaskId": null,
   "visible": true,

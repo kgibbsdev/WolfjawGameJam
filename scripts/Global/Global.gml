@@ -4,6 +4,7 @@ function init_menu(){
 
 function init_game(){
 	instance_create(0,0,oGameManager);
+	collisionTiles = layer_tilemap_get_id("tCollision");
 }
 
 function instance_create(x, y, instance) {
@@ -15,3 +16,4 @@ function font_set(font, halign, valign) {
 	draw_set_halign(halign);
 	draw_set_valign(valign);
 }
+
