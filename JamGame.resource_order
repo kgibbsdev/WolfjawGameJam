@@ -18,6 +18,8 @@
   ],
   "ResourceOrderSettings": [
     {"name":"rmMainMenu","order":1,"path":"rooms/rmMainMenu/rmMainMenu.yy",},
+    {"name":"spMonster","order":1,"path":"sprites/spMonster/spMonster.yy",},
     {"name":"oGameManager","order":1,"path":"objects/oGameManager/oGameManager.yy",},
+    {"name":"oMonster","order":2,"path":"objects/oMonster/oMonster.yy",},
   ],
 }
