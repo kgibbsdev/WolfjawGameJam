@@ -11,8 +11,6 @@ horizontalSpeed = (keyRight - keyLeft) * moveSpeed;
 //Work out where to move vertically
 verticalSpeed = verticalSpeed + grav;
 
-
-
 //Work out if we should jump
 if (place_meeting(x,y+1,oWall))
 {	

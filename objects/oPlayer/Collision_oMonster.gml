@@ -1,0 +1,3 @@
+with(oGameManager) {
+	playerIsAlive = false;
+}
