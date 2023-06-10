@@ -1,5 +1,5 @@
 function init_menu(){
-instance_create(0, 0, oMainMenu);
+	instance_create(0, 0, oMainMenu);
 }
 
 function init_game(){
