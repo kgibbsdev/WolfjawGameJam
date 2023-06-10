@@ -11,12 +11,31 @@ horizontalSpeed = (keyRight - keyLeft) * moveSpeed;
 //Work out where to move vertically
 verticalSpeed = verticalSpeed + grav;
 
+
+
 //Work out if we should jump
-if (place_meeting(x,y+1,oWall) and (keyJump))
-{
-	show_debug_message("JUMP!");
-    verticalSpeed = jumpSpeed;
+if (place_meeting(x,y+1,oWall))
+{	
+	if !(firstGrounded) {
+		firstGrounded = !firstGrounded	
+	}
+	currentJump = 0;
+	isGrounded = true;
+	
+} else {
+	isGrounded = false;	
 }
+
+if (keyJump and currentJump < maximumAllowedJumps) {
+	if !(firstGrounded) {
+		return	
+	}
+	
+	verticalSpeed = jumpSpeed;
+	currentJump += 1;
+
+}
+
 
 //-1 or 1
 var onePixel = sign(horizontalSpeed);
@@ -34,6 +53,7 @@ x = x + horizontalSpeed;
 //-1 or 1
 var onePixel = sign(verticalSpeed);
 if(place_meeting(x, y+verticalSpeed, oWall)) {
+	
 	//move as close as we can
 	while(!place_meeting(x, y+onePixel, oWall)) {
 		y = y + onePixel;
