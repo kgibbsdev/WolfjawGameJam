@@ -14,7 +14,6 @@ verticalSpeed = verticalSpeed + grav;
 //Work out if we should jump
 if (place_meeting(x,y+1,oWall) and (keyJump))
 {
-	show_debug_message("JUMP!");
     verticalSpeed = jumpSpeed;
 }
 

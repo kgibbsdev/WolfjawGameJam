@@ -23,6 +23,7 @@
     {"name":"spWall","order":2,"path":"sprites/spWall/spWall.yy",},
     {"name":"oGameManager","order":1,"path":"objects/oGameManager/oGameManager.yy",},
     {"name":"oWall","order":4,"path":"objects/oWall/oWall.yy",},
+    {"name":"PlatformingChallenges","order":1,"path":"scripts/PlatformingChallenges/PlatformingChallenges.yy",},
     {"name":"oMonster","order":2,"path":"objects/oMonster/oMonster.yy",},
   ],
 }
