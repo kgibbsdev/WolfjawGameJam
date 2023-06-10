@@ -1,0 +1,1 @@
+global.blockCount -= 1;

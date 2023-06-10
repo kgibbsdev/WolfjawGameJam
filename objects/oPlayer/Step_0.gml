@@ -9,7 +9,7 @@
 if(!isDead) {
 	//Player can only move if they aren't dead
 	//Work out where to move horizontally
-	horizontalSpeed = (keyRight - keyLeft) * moveSpeed;
+	horizontalSpeed = (keyRight - keyLeft) * moveSpeed * global.gameSpeed;
 } else {
 	if(!deathAnimationStarted) {
 		deathAnimationStarted = true;

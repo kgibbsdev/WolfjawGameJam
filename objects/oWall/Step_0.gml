@@ -8,5 +8,5 @@ if(collidedWithMonster) {
 	verticalSpeed = lerp(verticalSpeed, 20, 0.1);
 }
 
-x += horizontalSpeed;
-y += verticalSpeed;
+x += horizontalSpeed * global.gameSpeed;
+y += verticalSpeed * global.gameSpeed;
