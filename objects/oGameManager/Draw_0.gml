@@ -1,4 +1,5 @@
-if(!playerIsAlive) {
+with(oPlayer) {
+	if(isDead) {
 	
 	font_set(fntGame, fa_center, fa_middle);
 	textX = window_get_width()/2;
@@ -15,4 +16,5 @@ if(!playerIsAlive) {
 		room_restart();	
 	}
 
+}
 }

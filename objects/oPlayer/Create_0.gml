@@ -3,6 +3,8 @@ horizontalSpeed = 0;
 verticalSpeed = 0;
 jumpSpeed = -7;
 moveSpeed = 5;
+isDead = false;
+deathAnimationStarted = false;
 
 // Possible to have wall jump reset this?
 maximumAllowedJumps = 2;

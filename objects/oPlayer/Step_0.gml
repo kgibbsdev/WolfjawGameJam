@@ -5,8 +5,19 @@
 #endregion
 
 #region Move!
-//Work out where to move horizontally
-horizontalSpeed = (keyRight - keyLeft) * moveSpeed;
+
+if(!isDead) {
+	//Player can only move if they aren't dead
+	//Work out where to move horizontally
+	horizontalSpeed = (keyRight - keyLeft) * moveSpeed;
+} else {
+	if(!deathAnimationStarted) {
+		deathAnimationStarted = true;
+	}
+	if(deathAnimationStarted) {
+		image_angle += 25;	
+	}
+}
 
 //Work out where to move vertically
 verticalSpeed = verticalSpeed + grav;
@@ -31,7 +42,6 @@ if (keyJump and currentJump < maximumAllowedJumps) {
 	
 	verticalSpeed = jumpSpeed;
 	currentJump += 1;
-
 }
 
 
