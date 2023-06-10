@@ -10,3 +10,7 @@ if(collidedWithMonster) {
 
 x += horizontalSpeed * global.gameSpeed;
 y += verticalSpeed * global.gameSpeed;
+
+if(x < -2000 or y > 2000) {
+	instance_destroy();	
+}
