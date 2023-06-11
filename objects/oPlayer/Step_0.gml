@@ -6,10 +6,6 @@ keyJump = keyboard_check_pressed(vk_space);
 
 #region Move!
 
-
-
-
-
 if(!isDead) 
 {
     //Player can only move if they aren't dead
@@ -80,7 +76,7 @@ if(place_meeting(x+horizontalSpeed, y, oWall))
     
     horizontalSpeed = 0;
 }
-x = x + horizontalSpeed;
+
 //Check for vertical collisions and move if we can
 //-1 or 1
 var onePixel = sign(verticalSpeed);
@@ -95,6 +91,15 @@ if(place_meeting(x, y+verticalSpeed, oWall))
     verticalSpeed = 0;
 }
 
+var instance = instance_place(x, y+1, oWall);
+if(instance != noone) {
+		if((keyRight - keyLeft) == 0){
+			horizontalSpeed += instance.horizontalSpeed - global.terrainSpeedBonus;
+		}
+	}
+	
+
 y = y + verticalSpeed;
+x = x + horizontalSpeed;
 
 #endregion

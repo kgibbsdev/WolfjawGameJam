@@ -1,7 +1,7 @@
-grav = 0.2;
+grav = 0.3
 horizontalSpeed = 0;
 verticalSpeed = 0;
-jumpSpeed = -7;
+jumpSpeed = -10;
 moveSpeed = 7;
 isDead = false;
 deathAnimationStarted = false;
