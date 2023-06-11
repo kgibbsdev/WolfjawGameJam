@@ -29,7 +29,7 @@ function generate_tower() {
 	for(var i=0; i < 4; i++) {
 		instance_create(spawnX, (leftWallSpawnY - (i * blockHeight)), oWall);
 	}
-	instance_create(spawnX,	bottomLayerY, oDoor);
+	instance_create(spawnX,	bottomLayerY-blockHeight*1.5, oDoor);
 	
 	var rightWallSpawnY = bottomLayerY - blockHeight
 	for(var i=0; i < 4; i++) {
