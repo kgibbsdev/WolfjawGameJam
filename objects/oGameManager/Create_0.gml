@@ -16,7 +16,7 @@ instance_create(window_get_width()/2, 0, oPlayer);
 for(var i = 0; i < 10; i++) {
 	instance_create(window_get_width()/2 + i*64, window_get_height()-sprite_get_height(spWall), oWall);
 }
-instance_create(window_get_width()*0.8, 400, oKey);
+instance_create(window_get_width()*0.8, 500, oKey);
 instance_create(0, 0, oTerrainGenerator);
 audio_play_sound(sndSummonTheRawk, 1, true);
 
