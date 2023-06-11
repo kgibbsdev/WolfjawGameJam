@@ -2,7 +2,7 @@ global.blockCount = 0;
 global.gameSpeed = 1;
 global.gamePaused = false;
 global.terrainSpeedBonus = 0;
-global.terrainSpeedBonusLimit = 9;
+global.terrainSpeedBonusLimit = 10;
 global.numKeys = 0;
 global.actNumber = 0;
 
