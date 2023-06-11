@@ -12,11 +12,11 @@
     {"name":"Sequences","order":11,"path":"folders/Sequences.yy",},
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
+    {"name":"Music","order":2,"path":"folders/Sounds/Music.yy",},
+    {"name":"Sound Effects","order":3,"path":"folders/Sounds/Sound Effects.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"Music","order":2,"path":"folders/Sounds/Music.yy",},
-    {"name":"Sound Effects","order":3,"path":"folders/Sounds/Sound Effects.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"oPlayer","order":3,"path":"objects/oPlayer/oPlayer.yy",},
