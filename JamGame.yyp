@@ -42,6 +42,7 @@
     {"id":{"name":"rmMainMenu","path":"rooms/rmMainMenu/rmMainMenu.yy",},},
     {"id":{"name":"spPlayer","path":"sprites/spPlayer/spPlayer.yy",},},
     {"id":{"name":"spWall","path":"sprites/spWall/spWall.yy",},},
+    {"id":{"name":"sndWinMusic","path":"sounds/sndWinMusic/sndWinMusic.yy",},},
     {"id":{"name":"fntGame","path":"fonts/fntGame/fntGame.yy",},},
     {"id":{"name":"oTerrainGenerator","path":"objects/oTerrainGenerator/oTerrainGenerator.yy",},},
     {"id":{"name":"fntWin","path":"fonts/fntWin/fntWin.yy",},},

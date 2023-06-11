@@ -23,6 +23,7 @@
     {"name":"rmMainMenu","order":1,"path":"rooms/rmMainMenu/rmMainMenu.yy",},
     {"name":"spPlayer","order":1,"path":"sprites/spPlayer/spPlayer.yy",},
     {"name":"spWall","order":2,"path":"sprites/spWall/spWall.yy",},
+    {"name":"sndWinMusic","order":1,"path":"sounds/sndWinMusic/sndWinMusic.yy",},
     {"name":"oTerrainGenerator","order":5,"path":"objects/oTerrainGenerator/oTerrainGenerator.yy",},
     {"name":"fntWin","order":1,"path":"fonts/fntWin/fntWin.yy",},
     {"name":"sndJump","order":1,"path":"sounds/sndJump/sndJump.yy",},
