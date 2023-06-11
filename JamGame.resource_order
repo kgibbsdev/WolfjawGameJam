@@ -15,6 +15,8 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Music","order":2,"path":"folders/Sounds/Music.yy",},
+    {"name":"Sound Effects","order":3,"path":"folders/Sounds/Sound Effects.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"oPlayer","order":3,"path":"objects/oPlayer/oPlayer.yy",},
@@ -22,8 +24,8 @@
     {"name":"spPlayer","order":1,"path":"sprites/spPlayer/spPlayer.yy",},
     {"name":"spWall","order":2,"path":"sprites/spWall/spWall.yy",},
     {"name":"oTerrainGenerator","order":5,"path":"objects/oTerrainGenerator/oTerrainGenerator.yy",},
+    {"name":"sndJump","order":1,"path":"sounds/sndJump/sndJump.yy",},
     {"name":"Terrain","order":3,"path":"scripts/Terrain/Terrain.yy",},
-    {"name":"sndBlockDestroyed","order":1,"path":"sounds/sndBlockDestroyed/sndBlockDestroyed.yy",},
     {"name":"SimplexNoise","order":2,"path":"scripts/SimplexNoise/SimplexNoise.yy",},
     {"name":"oGameManager","order":1,"path":"objects/oGameManager/oGameManager.yy",},
     {"name":"oWall","order":4,"path":"objects/oWall/oWall.yy",},

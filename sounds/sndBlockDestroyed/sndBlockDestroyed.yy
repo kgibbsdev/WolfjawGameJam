@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.115011,
+  "duration": 0.126077,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Sound Effects",
+    "path": "folders/Sounds/Sound Effects.yy",
   },
   "preload": false,
   "sampleRate": 44100,
   "soundFile": "sndBlockDestroyed.wav",
   "type": 0,
-  "volume": 1.0,
+  "volume": 0.02,
 }

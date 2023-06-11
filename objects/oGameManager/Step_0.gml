@@ -3,7 +3,8 @@ if(keyboard_check_pressed(vk_escape)) {
 }
 
 if(keyboard_check_pressed(vk_f1)) {
-	game_restart();	
+	room_restart();
+	audio_stop_all();
 }
 
 if(keyboard_check_pressed(vk_f2)) {
