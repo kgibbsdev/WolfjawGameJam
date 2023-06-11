@@ -29,7 +29,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"GladlyAcceptRegular-Wyjov.ttf","CopyToMask":-1,"filePath":"datafiles",},
+  ],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
@@ -42,6 +44,7 @@
     {"id":{"name":"spWall","path":"sprites/spWall/spWall.yy",},},
     {"id":{"name":"fntGame","path":"fonts/fntGame/fntGame.yy",},},
     {"id":{"name":"oTerrainGenerator","path":"objects/oTerrainGenerator/oTerrainGenerator.yy",},},
+    {"id":{"name":"fntWin","path":"fonts/fntWin/fntWin.yy",},},
     {"id":{"name":"sndJump","path":"sounds/sndJump/sndJump.yy",},},
     {"id":{"name":"oExitDoor","path":"objects/oExitDoor/oExitDoor.yy",},},
     {"id":{"name":"oMainMenu","path":"objects/oMainMenu/oMainMenu.yy",},},
@@ -60,12 +63,15 @@
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"spKey","path":"sprites/spKey/spKey.yy",},},
     {"id":{"name":"PlatformingChallenges","path":"scripts/PlatformingChallenges/PlatformingChallenges.yy",},},
+    {"id":{"name":"oWinManager","path":"objects/oWinManager/oWinManager.yy",},},
+    {"id":{"name":"rmWin","path":"rooms/rmWin/rmWin.yy",},},
     {"id":{"name":"oMonster","path":"objects/oMonster/oMonster.yy",},},
     {"id":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rmMainMenu","path":"rooms/rmMainMenu/rmMainMenu.yy",},},
     {"roomId":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
+    {"roomId":{"name":"rmWin","path":"rooms/rmWin/rmWin.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

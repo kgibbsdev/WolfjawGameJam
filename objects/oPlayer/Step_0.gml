@@ -99,9 +99,10 @@ if(place_meeting(x+horizontalSpeed, y, oDoor)){
 
 if(place_meeting(x+horizontalSpeed, y, oExitDoor)){
 	var doorInstance = instance_place(x+horizontalSpeed, y, oExitDoor);
-	if(global.numKeys > 0) {
-		global.numKeys--;
+	if(global.numKeys >= 5) {
+		global.numKeys -= 5;
 		instance_destroy(doorInstance);	
+		room_goto(rmWin);
 	} else {
 		while(!place_meeting(x+onePixel, y, oExitDoor)) 
     {

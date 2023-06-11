@@ -6,6 +6,10 @@ function init_game(){
 	instance_create(0,0,oGameManager);
 }
 
+function init_win_room() {
+	instance_create(0, 0, oWinManager);	
+}
+
 function instance_create(x, y, instance) {
 	return instance_create_depth(x, y, 0, instance);
 }
