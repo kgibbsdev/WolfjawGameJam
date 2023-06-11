@@ -26,7 +26,7 @@ textY = window_get_height()-128;
 textX = window_get_width()-200;
 textY = window_get_height()-384;
 		
-//draw_text_transformed_colour(textX, textY, $"TerrainSpeedBonus: {global.terrainSpeedBonus}", 2, 2, 1, c_white, c_white, c_white, c_white, 1);
+draw_text_transformed_colour(textX, textY, $"Act number: {global.actNumber}", 2, 2, 1, c_white, c_white, c_white, c_white, 1);
 
 
 font_set(fntGame, fa_center, fa_middle);

@@ -1,0 +1,1 @@
+horizontalSpeed = -5;

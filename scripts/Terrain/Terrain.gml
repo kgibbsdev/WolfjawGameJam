@@ -37,6 +37,24 @@ function generate_tower() {
 	}
 }
 
+function generate_tower_with_exit_door() {
+	var blockWidth = sprite_get_width(spWall);
+	var blockHeight = sprite_get_height(spWall);
+	var towerOpenSpace = blockWidth * 3;
+	var bottomLayerY = window_get_height() - blockHeight;
+	var spawnX = window_get_width()  + blockWidth*5;
+	var leftWallSpawnY = bottomLayerY - blockHeight*3;
+	for(var i=0; i < 4; i++) {
+		instance_create(spawnX, (leftWallSpawnY - (i * blockHeight)), oWall);
+	}
+	instance_create(spawnX,	bottomLayerY-blockHeight*1.5, oExitDoor);
+	
+	var rightWallSpawnY = bottomLayerY - blockHeight
+	for(var i=0; i < 4; i++) {
+		instance_create(spawnX + towerOpenSpace, (rightWallSpawnY - (i * blockHeight)), oWall);
+	}
+}
+
 function generate_right_hill() {
 	var blockWidth = sprite_get_width(spWall);
 	var blockHeight = sprite_get_height(spWall);

@@ -17,7 +17,7 @@ function font_set(font, halign, valign) {
 }
 
 function spawn_key() {
-	var spawnX = irandom_range(oPlayer.x, window_get_width());	
+	var spawnX = irandom_range(window_get_width(), window_get_width() + 200);	
 	var spawnY = irandom_range(200, window_get_height() - 120);
 	if(place_empty(spawnX, spawnY)) {
 		instance_create(spawnX, spawnY, oKey);	
@@ -25,5 +25,4 @@ function spawn_key() {
 	else {
 		spawn_key();	
 	}
-	
 }

@@ -1,0 +1,1 @@
+x += (horizontalSpeed - global.terrainSpeedBonus) * global.gameSpeed;

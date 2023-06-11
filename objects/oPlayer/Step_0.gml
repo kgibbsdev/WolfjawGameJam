@@ -97,6 +97,26 @@ if(place_meeting(x+horizontalSpeed, y, oDoor)){
 	}
 }
 
+if(place_meeting(x+horizontalSpeed, y, oExitDoor)){
+	var doorInstance = instance_place(x+horizontalSpeed, y, oExitDoor);
+	if(global.numKeys > 0) {
+		global.numKeys--;
+		instance_destroy(doorInstance);	
+	} else {
+		while(!place_meeting(x+onePixel, y, oExitDoor)) 
+    {
+        x = x + onePixel;    
+    }
+    
+    while (place_meeting(x, y, oExitDoor)) 
+    {
+        x = x - global.gameSpeed
+    }
+    
+    horizontalSpeed = 0;
+	}
+}
+
 //Check for vertical collisions and move if we can
 //-1 or 1
 var onePixel = sign(verticalSpeed);
