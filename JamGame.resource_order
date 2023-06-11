@@ -23,6 +23,7 @@
     {"name":"spWall","order":2,"path":"sprites/spWall/spWall.yy",},
     {"name":"oTerrainGenerator","order":5,"path":"objects/oTerrainGenerator/oTerrainGenerator.yy",},
     {"name":"Terrain","order":3,"path":"scripts/Terrain/Terrain.yy",},
+    {"name":"sndBlockDestroyed","order":1,"path":"sounds/sndBlockDestroyed/sndBlockDestroyed.yy",},
     {"name":"SimplexNoise","order":2,"path":"scripts/SimplexNoise/SimplexNoise.yy",},
     {"name":"oGameManager","order":1,"path":"objects/oGameManager/oGameManager.yy",},
     {"name":"oWall","order":4,"path":"objects/oWall/oWall.yy",},
