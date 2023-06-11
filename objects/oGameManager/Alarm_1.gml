@@ -1,2 +1,2 @@
 spawn_key();
-alarm[1] = 420
+alarm[1] = 240

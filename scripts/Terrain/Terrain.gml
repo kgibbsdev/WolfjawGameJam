@@ -19,7 +19,7 @@ function generate_terrain() {
 	}
 }
 
-function generate_tower() {
+function generate_tower_with_low_door() {
 	var blockWidth = sprite_get_width(spWall);
 	var blockHeight = sprite_get_height(spWall);
 	var towerOpenSpace = blockWidth * 3;
@@ -31,6 +31,27 @@ function generate_tower() {
 	}
 	instance_create(spawnX,	bottomLayerY-blockHeight*1.5, oDoor);
 	
+	var rightWallSpawnY = bottomLayerY - blockHeight
+	for(var i=0; i < 4; i++) {
+		instance_create(spawnX + towerOpenSpace, (rightWallSpawnY - (i * blockHeight)), oWall);
+	}
+}
+
+function generate_tower_with_high_door() {
+	var blockWidth = sprite_get_width(spWall);
+	var blockHeight = sprite_get_height(spWall);
+	var towerOpenSpace = blockWidth * 3;
+	var bottomLayerY = window_get_height() - blockHeight;
+	var spawnX = window_get_width()  + blockWidth*5;
+	//spawn left wall
+	var leftWallSpawnY = bottomLayerY - blockHeight;
+	var rightWallSpawnY = bottomLayerY - blockHeight
+	for(var i=0; i < 5; i++) {
+		instance_create(spawnX, (leftWallSpawnY - i*64), oWall);
+	}
+	instance_create(spawnX,	bottomLayerY-blockHeight*6.5, oDoor);
+	instance_create(spawnX, bottomLayerY-blockHeight*8, oWall)
+	//spawn right wall
 	var rightWallSpawnY = bottomLayerY - blockHeight
 	for(var i=0; i < 4; i++) {
 		instance_create(spawnX + towerOpenSpace, (rightWallSpawnY - (i * blockHeight)), oWall);
